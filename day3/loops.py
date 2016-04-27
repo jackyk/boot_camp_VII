@@ -23,3 +23,5 @@ create a table x,| y
 for i in b:
     #print i
     print "x:{} | y:{}".format(*i)
+
+f=[(10,20,30),(10,40),(4,5,50)]
