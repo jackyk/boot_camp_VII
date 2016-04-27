@@ -6,12 +6,13 @@ def super_sum(A):
     #returns the sum of all,
     '''
     total = 0
+
     for x in A:
         if x % 2 == 0:
             total += (x / 2)
         else:
             total += (x * 2)
-        return total
 
+    return total
 
-print super_sum([2,3])
+super_sum([2,3])
