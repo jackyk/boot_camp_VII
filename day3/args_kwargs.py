@@ -27,8 +27,8 @@ other_people=[
     {"name":"Jik","age":78},
     {"name":"Joyt","age":78},
     ]
-for persons in other_people:
-    pr
+#for persons in other_people:
+
 Joe={"name":"Joey","age":78}
 
 print hello_again(**Joe)

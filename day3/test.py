@@ -3,14 +3,15 @@ other_people=[
     ("Jik",78),
     ("Joyt",78)
     ]
+'''
 def super_sum(*args):
     return sum(args)
-
+'''
 def hello_again(name,age):
     return "I am {} and {} years old".format(name, age)
 
 def max_min(A):
-    '''Returns the max value - min value'''
+'''Returns the max value - min value'''
 
     max_ , min_ = A[0], A[0]
 
